@@ -1,0 +1,44 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header{
+    display: block;
+    height:100px;
+    background-color: red;
+}
+
+footer{
+    display:block;
+    height:200px;
+    background-color:darkgray;
+}
+
+.content-wrapper{
+    display: flex;
+}
+
+.content{
+     flex-direction: column;
+    flex: .75;
+    background-color:white;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #D9D9D9;
+    height: 450px;
+    margin: 12px;
+}
+
+.sidebar{
+    margin:10px;
+    flex-direction: column;
+    flex:.25;
+    height: 450px;
+    background-color:white;
+    border-width: 1px;
+    border-style:solid;
+    border-color: #D9D9D9;
+}
+
